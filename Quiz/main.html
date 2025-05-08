@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script>
+        function openLink(){
+            var select=document.getElementById("link");
+            var value=select.value;
+            if (value){
+                window.location.href=value;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>SELECT ANY GENRE</h1>
+    <select id="link" onchange="openLink()">
+        <option value="/sports.php">Sports</option>
+        <option value="/current.php">Current Affairs</option>
+        <option value="/tech.php">Science and Technology</option>
+    </select>
+</body>
+</html>
