@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            To split one file to 2 files
+        </title>
+        <script>
+            function refresh(){
+                form1.file1.value="";
+                form1.file2.value="";
+                form1.form3.value="";
+            }
+        </script>
+    </head>
+    <body bgcolor="white">
+        <h2 style="background-color: red;color:black;text-align: center;">Program to split 1 file to 2 files</h2>
+        <form name="form1" action="fsplit.php" method="post">
+            <h3 style="background-color: black;color: mediumorchid;text-align: center;">Input file Name:</h3><center><input type="text" name="file1" size="20"></center>
+            <h3 style="background-color: black;color: mediumorchid;text-align: center;">Output file-1 Name:</h3><center><input type="text" name="file2" size="20"></center>
+
+            <h3 style="background-color: black;color: mediumorchid;text-align: center;">Output file-2 Name:</h3><center><input type="text" name="file3" size="20"></center>
+            <pre>
+                <input type="submit" value="SPLIT-FILE">
+                <input type="button" value="REFRESH" onclick="refresh()">
+            
+        </form>
+    </body>
+</html>
