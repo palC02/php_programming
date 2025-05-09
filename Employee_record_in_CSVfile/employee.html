@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Input</title>
+</head>
+<body>
+    <h2>Enter Employee Details</h2>
+    <form action="save_employee.php" method="post">
+        Employee Code (1-100): <input type="number" name="ec" min="1" max="100" required><br><br>
+        Name: <input type="text" name="name" required><br><br>
+        Basic Salary (10000 - 50000): <input type="number" name="basic" min="10000" max="50000" required><br><br>
+        <input type="submit" value="Save Employee">
+    </form>
+</body>
+</html>
