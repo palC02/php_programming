@@ -9,7 +9,10 @@ CREATE TABLE SCORESHEET(
     t3 DECIMAL(100),
     t4 DECIMAL(100),
     p1 DECIMAL(100),
-    p2 DECIMAL(100)
+    p2 DECIMAL(100),
+    total DECIMAL(10,2),
+    average DECIMAL(10,2),
+    division VARCHAR(20)
 );
 
 
